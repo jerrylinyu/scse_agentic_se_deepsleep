@@ -1,0 +1,6 @@
+The software must process input indicating whether the path ahead, to the left, and to the right is blocked.  
+The software must process input indicating the direction of the robot's goal relative to its current position.  
+The software must prioritize movement toward the goal direction whenever it can be done without entering a blocked path.  
+The software must prevent movement into any direction marked as blocked.  
+The software must halt the robot's movement if no unblocked directions are available.  
+The software must support testing in multiple simulated environments with varying navigation scenarios.
