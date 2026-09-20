@@ -2,6 +2,7 @@ import json
 from ollama import chat
 
 def build_prompt(brief):
+    # Let the AI help me modify the system_prompt & user_prompt.
     system_prompt = """
     You are a requirements‑engineering analyst agent for robot navigation.
     Task: Extract navigation requirements from the customer brief and output ONLY pure valid JSON.

@@ -10,6 +10,7 @@ def load_file(filename):
         print("An error occurred when trying to read the file")
 
 def build_prompt(brief):
+    # Let the AI help me modify the system_prompt & user_prompt.
     system_prompt = """
     You are a requirements assistant.
     Read the customer project brief and extract all software‑system requirements as plain human‑readable English text.
@@ -53,4 +54,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    # print(type(load_file("brief.txt")), load_file("brief.txt"))
