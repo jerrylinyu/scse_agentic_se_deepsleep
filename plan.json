@@ -1,0 +1,10 @@
+{
+    "strategy": "Proactive obstacle avoidance with safe-stop protocol",
+    "decisions": [
+        "FORWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP"
+    ],
+    "stop_condition": "when the robot reaches the designated goal location"
+}
