@@ -11,7 +11,9 @@ def read_json(filename):
         return json.load(file)
 
 def write_json(result, filename):
-    with open(filename, 'w') as file:
+    path = Path("artifacts") / filename
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, 'w') as file:
         json.dump(result, file, indent=4)
 
 def main():

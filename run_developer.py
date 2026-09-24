@@ -5,11 +5,14 @@ from developer_agent import run_developer
 
 
 def read_json(filename):
-    with open(filename, 'r') as file:
+    path = Path("artifacts") / filename
+    with open(path, 'r') as file:
         return json.load(file)
 
 def write_json(result, filename):
-    with open(filename, 'w') as file:
+    path = Path("generated") / filename
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, 'w') as file:
         file.write(result)
 
 def main():
