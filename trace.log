@@ -1,0 +1,19 @@
+==== Starting Integration & Simulation full pipeline ====
+Orchestrator: Loading brief.txt
+Analyst Agent: executing run_analyst()
+Analyst Agent created artifacts/requirements.json
+Planner Agent: executing run_planner()
+Planner Agent created artifacts/plan.json
+Developer Agent: executing run_developer()
+Developer Agent created generated/navigation_logic.py
+Test Agent: executing run_test_agent()
+Test Agent created generated/test_decide_next_move.py
+Simulation Runner: executing run_simulation()
+Simulation Runner created artifacts/simulation_report.json
+Reviewer Agent: executing run_reviewer_agent()
+Reviewer Agent created artifacts/sim_review_notes.json
+IRSIM Benchmark: executing run_all_benchmark()
+IRSIM Benchmark created artifacts/irsim_benchmark_report.json
+Benchmark Reviewer Agent: executing run_benchmark_reviewer_agent()
+Benchmark Reviewer Agent created artifacts/benchmark_review_notes.json
+==== Pipeline execution finished ====

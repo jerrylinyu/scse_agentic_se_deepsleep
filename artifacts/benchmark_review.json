@@ -1,0 +1,9 @@
+{
+    "issue": "Goal completion failure",
+    "likely_cause": "The robot did not reach the goal in all simulated worlds",
+    "recommendation": "Improve goal-seeking behavior and obstacle avoidance strategy",
+    "safety_passed": true,
+    "goal_completion_passed": false,
+    "efficiency_passed": false,
+    "needs_revision": true
+}

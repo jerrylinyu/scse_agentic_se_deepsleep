@@ -1,0 +1,10 @@
+{
+  "strategy": "Navigate toward the goal by moving forward while dynamically adjusting direction left/right to avoid obstacles and blocked paths.",
+  "decisions": [
+    "FORWARD",
+    "LEFT",
+    "RIGHT",
+    "STOP"
+  ],
+  "stop_condition": "when the robot reaches the goal location or detects an obstacle in all directional paths"
+}
